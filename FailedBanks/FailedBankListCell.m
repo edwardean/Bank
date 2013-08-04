@@ -22,8 +22,6 @@
 
 - (void)bindWithObject:(id)object
 {
-  NSLog(@"Object:%@",object);
-  
   FailedBankInfo *infp = (FailedBankInfo *)object;
   self.textLabel.text = infp.name;
 }

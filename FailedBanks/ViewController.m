@@ -20,7 +20,7 @@
 {
   self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
   if (self) {
-    // Custom initialization
+
   }
   return self;
 }
@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+  
 	self.title = @"Failed Banks";
   
   [self registerCellClass:[FailedBankListCell class]];
@@ -41,7 +42,6 @@
 - (void)didReceiveMemoryWarning
 {
   [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
 }
 
 @end
